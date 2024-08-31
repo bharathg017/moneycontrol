@@ -20,6 +20,79 @@
         /* CSS to show dropdown on hover */
         @media (min-width:1024px) {
             body{
+                transform: scale(0.95)
+            }
+        }
+         @media (max-width: 768px) {
+            .body1_b {
+                font-size: 10px;
+            }
+            .body_content_grid{
+                font-size: 10px;
+            }
+            .body1_hl {
+                font-size: 16px;
+            }    
+            .body1_b_large{
+                font-size: 16px;
+            }
+            .body1_hl_large{
+                font-size: 18px;
+            }
+            #grid_1{
+                grid-template-columns: 1fr;
+            }
+            body{
+                transform: scale(0.95);
+            }
+            .icon-inside{
+                display: none;
+            } 
+            .search{
+                display: none;
+            }
+
+        }
+        @media (min-width: 768px) and (max-width:992px){
+            body{
+                transform: scale(0.90);
+            }
+            .body1_b .body_content_grid{
+                font-size: 18px;
+            }
+            .body1_hl {
+            font-size: 20px;
+            font-family: 'Unna',serif;
+            display: block;
+            text-wrap: wrap;
+            color: #292929;
+            margin-bottom: 15px;
+            font-weight: 700;
+            text-decoration: none;
+            }
+            
+            .body1_b_large{
+                font-size: 20px;
+            }
+            .body1_hl_large{
+                font-size: 20px;
+            }
+        }
+
+        @media (min-width: 993px) and (max-width:1024px)  {
+            .body1_b .body_content_grid{
+                font-size: 24px;
+            }
+            .body1_hl .body1_b_large{
+                font-size: 36px;
+            }
+            .body1_hl_large{
+                font-size: 48px;
+            }
+        }
+        
+        @media (min-width:1025px) {
+            body{
                 transform: scale(0.95);
             }
         }
